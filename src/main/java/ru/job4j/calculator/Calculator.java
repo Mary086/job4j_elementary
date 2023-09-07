@@ -1,6 +1,7 @@
-package ru.job4j.Calculator;
+package ru.job4j.calculator;
 
 public class Calculator {
+    @SuppressWarnings("checkstyle:MethodParamPad")
     public static void main(String[] args) {
         int one = 1;
         int two = 2;
@@ -11,11 +12,11 @@ public class Calculator {
         int five = 5;
 
         int sixDivTwo = six / two;
-        System.out.println (sixDivTwo);
+        System.out.println(sixDivTwo);
         int fiveMinusTwo = five - two;
-        System.out.println (fiveMinusTwo);
+        System.out.println(fiveMinusTwo);
         int fourTimeTwo = four * two;
-        System.out.println (fourTimeTwo);
+        System.out.println(fourTimeTwo);
 
     }
 
