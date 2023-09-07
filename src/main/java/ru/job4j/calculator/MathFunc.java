@@ -1,5 +1,6 @@
-package ru.job4j.Calculator;
+package ru.job4j.calculator;
 
+@SuppressWarnings("checkstyle:TypeName")
 public class MathFunc {
     public static int func1(int x) {
         int y = x * x + 1;
