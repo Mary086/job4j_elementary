@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class MaxTest {
+
     @Test
     void whenMax1To2Then2() {
         int left = 1;
@@ -12,6 +13,7 @@ class MaxTest {
         int expected = 2;
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     void whenMax3To2Then3() {
         int left = 3;
@@ -20,6 +22,7 @@ class MaxTest {
         int expected = 3;
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     void whenMax3To3Then3() {
         int left = 3;
